@@ -30,6 +30,14 @@ void book::getData(){
     cout<<"\nEnter no. of copies: ";
     cin>>a;
 }
+void book::show(){
+    cout<<"Book: "<<name;
+    cout<<"\nAuthor: "<<author;
+    cout<<"\nCopies: "<<a;
+}
+
+//to invoke welcome screen, credit screen and ending screen
+
 int main()
 {
     cout << "Hello world!" << endl;
