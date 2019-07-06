@@ -19,6 +19,17 @@ public:
     void getData();
     void show();
 };
+//functions to get and show data
+void book::getData(){
+    cout<<"\nEnter details about book you want to purchase: ";
+    cout<<"\n\nEnter Name of book: ";
+    cin>>name;
+    cout>>"\nEnter name of author: ";
+    cin>>author;
+    fflush(stdin);
+    cout<<"\nEnter no. of copies: ";
+    cin>>a;
+}
 int main()
 {
     cout << "Hello world!" << endl;
