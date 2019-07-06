@@ -10,7 +10,15 @@
 #include "iomanip"
 
 using namespace std;
-
+//Class name: Book
+class book{
+public:
+    char name[20];
+    char author[20];
+    int a;
+    void getData();
+    void show();
+};
 int main()
 {
     cout << "Hello world!" << endl;
